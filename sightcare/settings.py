@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
+    'adminrestrict',
     'django_db_logger',
     'clinic',
     'store',
