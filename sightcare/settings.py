@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['*']
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False # make it True on production
 # os.environ['HTTPS'] = "on" # uncomment on prod
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000/*', 'https://*.127.0.0.1', 'http://127.0.0.1:8000/*', 'http://3.110.131.72:8000/*']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000/*', 'https://*.127.0.0.1', 'http://127.0.0.1:8000/*', 'http://15.207.87.209:8000/*']
 #added
 
 
@@ -95,7 +95,7 @@ WSGI_APPLICATION = 'sightcare.wsgi.application'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
-    'http://3.110.131.72:8000',
+    'http://15.207.87.209:8000',
     # 'http://localhost:5500',
     # 'http://localhost:5500/*'
 ]
